@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.jumbotron {
+    width: 100vw;
+    height: 85vh;
+    background-image: url('../img/jumbo.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background: #000;
+}
+
+/* !!!!!!!!!!!!!!!! */
+.fixed-nav .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+/* !!!!!!!!!!!!!!!! */
+
+.navbar-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.navbar-item {
+    padding: 0 30px;
+    list-style: none;
+}
+
+.logo {
+    max-width: 0;
+    overflow: hidden;
+    margin-right: 30px;
+    background: #b7dfed;
+    transition: all .8s;
+    font-size: 40px;
+}
+
+.fixed-nav .logo {
+    max-width: 500px;
+}
+
+.navbar-link {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #b7dfed;
+    list-style: none;
+}
+
+main p {
+    margin: 50px;
+    padding: 10px;
+    background: #eee;
+}
